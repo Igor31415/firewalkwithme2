@@ -1,0 +1,140 @@
+@font-face {
+	font-family: ApfelGrotezk;
+	src: url(Fonts/ApfelGrotezk-regular.otf);
+}
+@font-face {
+	font-family: Mazius Regular;
+	src: url(Fonts/MAZIUSREVIEW20.09-Regular.otf);
+}
+@font-face {
+	font-family: Mazius Italic;
+	src: url(Fonts/MAZIUSREVIEW20.09-Italic.otf);
+}
+
+
+.Title{ 
+	position: fixed;
+	top: -2vh;
+	left: 19vw; 
+	
+	font-size:52px;
+	color:#000000;
+	font-family: Mazius Italic;
+}
+
+.Date{
+	position: fixed;
+	top: 10vh;
+	right: 19vw; 
+	
+	font-size:33px;
+	color:#000000;
+	font-family: Mazius Regular;
+}
+
+.Artists{
+	position: fixed;
+	top: 29vh;
+	left: 19vw; 
+	
+	font-size:50px;
+	color:#000000;
+	font-family: ApfelGrotezk;
+}
+
+.Menu{ 
+	position: fixed;
+	text-align: center;
+	bottom: 11vh;
+	left: 19vw; 
+	
+	font-size:33px;
+	color:#000000;
+	font-family: Mazius Regular;
+}
+
+/* Menu pour les pages autres que l'accueil -------------------------------------------*/
+.Menu2{ 
+	position: fixed;
+	text-align: center;
+	top: 15vh;
+	left: 19vw; 
+	
+	font-size:33px;
+	color:#000000;
+	font-family: Mazius Regular;
+}
+
+/* Synospis ------------------------------------------------------------------------- */
+.Synopsis{
+	font-size:21px;
+	color:#000000;
+	font-family: Mazius Regular;
+	text-align: center;
+}
+
+/* Recherches ----------------------------------------------------------------------- */
+.Bibliographie{
+    position: relative;
+    top: 25vh;
+    right: 10vw;
+    font-size:19px;
+	color:white;
+	font-family: Mazius Regular;
+	text-align: right;
+}
+
+.RecherchesJDroite{
+    width: 1500px;
+    position: relative;
+    top: 40vh;
+    left: 10vw;
+    color:white;
+    font-size:21px;
+	font-family: Mazius Regular;
+	text-align: right;
+}
+
+.RecherchesJGauche{
+    width: 1500px;
+    position: relative;
+    top: 40vh;
+    left: 10vw;
+    color:white;
+    font-size:21px;
+	font-family: Mazius Regular;
+	text-align: left;
+}
+
+
+.Img{
+    position: absolute;
+    top: 85vh;
+    left: 30vw;
+}
+
+/* Général -------------------------------------------------------------------------- */
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: #990099;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}

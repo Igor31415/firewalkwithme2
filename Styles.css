@@ -1,0 +1,261 @@
+@font-face {
+	font-family: ApfelGrotezk;
+	src: url(Fonts/ApfelGrotezk-regular.otf);
+}
+@font-face {
+	font-family: Mazius Regular;
+	src: url(Fonts/MAZIUSREVIEW20.09-Regular.otf);
+}
+@font-face {
+	font-family: Mazius Italic;
+	src: url(Fonts/MAZIUSREVIEW20.09-Italic.otf);
+}
+
+
+.Title{ 
+	position: fixed;
+	top: -2vh;
+	left: 19vw; 
+	
+	font-size:52px;
+	color:#000000;
+	font-family: Mazius Italic;
+}
+
+.Date{
+	position: fixed;
+	top: 10vh;
+	right: 19vw; 
+	
+	font-size:33px;
+	color:#000000;
+	font-family: Mazius Regular;
+}
+
+.Artists{
+	position: fixed;
+	top: 29vh;
+	left: 19vw; 
+	
+	font-size:50px;
+	color:#000000;
+	font-family: ApfelGrotezk;
+}
+
+.Menu{ 
+	position: fixed;
+	text-align: center;
+	bottom: 11vh;
+	left: 19vw; 
+	
+	font-size:33px;
+	color:#000000;
+	font-family: Mazius Regular;
+}
+
+/* Menu pour les pages autres que l'accueil -------------------------------------------*/
+.Menu2{ 
+	position: fixed;
+	text-align: center;
+	top: 15vh;
+	left: 19vw; 
+	
+	font-size:33px;
+	color:#000000;
+	font-family: Mazius Regular;
+}
+
+/* Cercle Intérieur ------------------------------------------------------------------*/
+.Vid1{
+	position: absolute;
+	top: 25vh;
+	left: 21vw;
+	
+	font-size:20px;
+	color:#000000;
+	font-family: ApfelGrotezk;
+	text-align: left;
+}
+.Vid2{
+	position: absolute;
+	top: 25vh;
+	right: 21vw;
+	
+	font-size:20px;
+	color:#000000;
+	font-family: ApfelGrotezk;
+	text-align: right;
+}
+.Vid3{
+	position: relative;
+	top: 59vh;
+	left: 0vw;
+	
+	font-size:20px;
+	color:#000000;
+	font-family: ApfelGrotezk;
+	text-align: center;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px dotted black;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 515px;
+  background-color: #66ff66;
+  color: black;
+  text-align: left;
+  border-radius: 0px;
+  padding: 10px;
+  position: absolute;
+  z-index: 15;
+  bottom: -1150%;
+  left: 0%;
+  margin-left: 0px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 0.8;
+}
+
+.tooltip2 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px dotted black;
+}
+.tooltip2 .tooltiptext2 {
+  visibility: hidden;
+  width: 515px;
+  background-color: #66ff66;
+  color: black;
+  text-align: left;
+  border-radius: 0px;
+  padding: 10px;
+  position: absolute;
+  z-index: 15;
+  bottom: -1550%;
+  right: 0%;
+  margin-left: 0px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.tooltip2 .tooltiptext2::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+.tooltip2:hover .tooltiptext2 {
+  visibility: visible;
+  opacity: 0.8;
+}
+
+.tooltip3 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px dotted black;
+}
+.tooltip3 .tooltiptext3 {
+  visibility: hidden;
+  width: 515px;
+  background-color: #66ff66;
+  color: black;
+  text-align: left;
+  border-radius: 0px;
+  padding: 10px;
+  position: absolute;
+  z-index: 15;
+  bottom: 110%;
+  right: -495%;
+  margin-left: 0px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.tooltip3 .tooltiptext3::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+.tooltip3:hover .tooltiptext3 {
+  visibility: visible;
+  opacity: 0.8;
+}
+
+/* Synospis ------------------------------------------------------------------------- */
+.Synopsis{
+	font-size:21px;
+	color:#000000;
+	font-family: Mazius Regular;
+	text-align: center;
+}
+
+/* Recherches ----------------------------------------------------------------------- */
+.Recherches{
+    max-width: 30vw;
+    position: relative;
+    top: 23vh;
+    left: 34vw;
+    font-size:21px;
+	color:black;
+	font-family: Mazius Regular;
+	text-align: justify;
+	text-justify: inter-word;
+}
+.TitleRecherche{
+    position: relative;
+    top: 25vh;
+	font-size:36px;
+	color:black;
+	font-family: Mazius Regular;
+	text-align: center;
+}
+
+/* Général -------------------------------------------------------------------------- */
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: #66ff66;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
